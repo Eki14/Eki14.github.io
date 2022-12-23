@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="with=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+  
+    <title>Univerzitet</title>
+</head>
+<body>
+  <section class="header">
+    <nav>
+      <a href="Univerzitet.html"><img src="Slike/logo1.png"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="">HOME</a></li>
+          <li><a href="">ABOUT</a></li>
+          <li><a href="">COURSE</a></li>
+          <li><a href="">BLOG</a></li>
+          <li><a href="">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+  <div class="text-box">
+    <h1>Singidunum University</h1>
+    <p>First private university in Serbia which is accredited by the Law on Higher Education.</p>
+    <a href="" class="hero-btn">Visit Us To Know More</a>
+  </div>
+
+  </section>
+
+  <!------ Course ------>
+  <section class="course">
+    <h1>Courses We Offer</h1><BR>
+
+      <div class="row">
+        <div class="course-col">
+          <h3>BACHELOR STUDIES</h3>
+          <p>
+            Business Economics<br>
+            Tourism And Hospitality<br>
+            Informatics And Computing<br>
+            Information Technology<br>
+            Electrical Engineering And Computing<br>
+            Sports Management<br>
+            Physical Education And Sport<br>
+            Anglistics
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>MASTER STUDIES</h3>
+          <p>
+            Business Economics<br>
+            Contemporary Information Technologies	<br>
+            Environment and Sustainable Development	<br>
+            Business Systems in Tourism and Hospitality	<br>
+            Computational Physics<br>
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>DOCTORAL STUDIES</h3>
+          <p>
+            Contemporary Business Decision Making<BR>
+            Tourism Management	<BR>
+            Advanced security sistems	<BR>
+            Engineering Systems	<BR>	
+            Electical Engineering and Computing<BR>
+            Environment and Sustainable Develepment	<BR>
+          </p>
+        </div>
+      </div>
+
+
+  </section>
+   <!---------CAMPUS------->
+
+  <section class="campus">
+    <H1>Our Global Campuses</H1>
+
+    <div class="row">
+      <div class="campus-col">
+        <a href="https://singidunum.ac.rs/">
+        <img src="slike/bg.jpg" >
+        <div class="layer">
+           <h3>BEOGRAD</h3>
+        </div>
+      </div>
+      <div class="campus-col">
+        <a href="https://novisad.singidunum.ac.rs/">
+        <img src="Slike/ns.jpg">
+        <div class="layer">
+           <h3>NOVI SAD</h3></a>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-----INFORMACIJE----->
+
+  <section class="cta">
+    <h1>Enroll For Our Various Online Courses <br>Anywhere From The World</h1>
+    <a href="" class="hero-btn">CONTACT US</a>
+  </section>
+
+  <!------FOOTER ------>
+
+  <section class="footer">
+    <h4>About Us</h4>
+    <p>Singidunum University is the first private university accredited under the new Law on Higher Education. <br>There are currently around 12,000 students enrolled at Singidunum University. <br>Lectures are carried out within 16,000 m² of high-quality space equipped with necessary computer and Internet infrastructure, audio-video and other word-class amenities necessary for the efficient learning and teaching process. <br>The University disposes of 16 amphitheatres, 20 lecture halls and 9 computer rooms.</p>
+
+    <div class="icons">
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-twitter"></i>
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-linkedin"></i>
+    </div>
+   
+ 
+
+  </section>
+  
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+<!------JAVA ZA TOGGLE------>
+
+  <script>
+
+    var navLinks= document.getElementById("navLinks");
+
+    function showMenu(){
+      navLinks.style.right= "0";
+    }
+    function hideMenu(){
+      navLinks.style.right="-200px";
+    }
+
+
+
+  </script>
+
+
+</body>
+</html>
